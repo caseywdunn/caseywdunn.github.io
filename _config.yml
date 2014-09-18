@@ -15,14 +15,14 @@ color:
 # Team names, titles and social links
 people:
 - name: Casey Dunn
-  pic: 1
+  pic: casey
   position: Principal Investigator
   description: My CV is available <a href="/assets/Casey_Dunn_CV.pdf">here</a>.
   social:
     - title: twitter
       url: https://twitter.com/caseywdunn
     - title: google
-      url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
+      url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ
     - title: bitbucket 
       url: https://bitbucket.org/caseywdunn
     - title: github
@@ -30,27 +30,25 @@ people:
     - title: vimeo-square
       url: https://vimeo.com/user1747626
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Stefan Siebert
+  pic: stefan
+  position: Postdoc
+  description: The developmental biology and diversity of hydrozoans (Cnidaria).
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - title: google
+      url: http://scholar.google.com/citations?user=G8XF6J0AAAAJ
+    - title: flickr
+      url: https://www.flickr.com/photos/ssiebert/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Felipe Zapata
+  pic: felipe
+  position: Postdoc
+  description: Phylogenetics, diversity, and computational biology. I am a botanist, but am discovering the fascinating world of Metazoa.
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://twitter.com/zapata_f
+    - title: google
+      url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
