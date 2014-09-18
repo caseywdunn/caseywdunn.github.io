@@ -14,16 +14,21 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Casey Dunn
   pic: 1
-  position: Lead Designer
+  position: Principal Investigator
+  description: My CV is available <a href="/assets/Casey_Dunn_CV.pdf">here</a>.
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://twitter.com/caseywdunn
+    - title: google
+      url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
+    - title: bitbucket 
+      url: https://bitbucket.org/caseywdunn
+    - title: github
+      url: https://github.com/caseywdunn
+    - title: vimeo-square
+      url: https://vimeo.com/user1747626
 
 - name: Larry Parker
   pic: 2
@@ -49,12 +54,16 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/caseywdunn
-  - title: bitbucket 
-    url: https://bitbucket.org/caseywdunn
-  - title: github
-    url: https://github.com/caseywdunn
+    - title: twitter
+      url: https://twitter.com/caseywdunn
+    - title: google
+      url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
+    - title: bitbucket 
+      url: https://bitbucket.org/caseywdunn
+    - title: github
+      url: https://github.com/caseywdunn
+    - title: vimeo-square
+      url: https://vimeo.com/user1747626
 
 # Postal address (add as many lines as necessary)
 address:
