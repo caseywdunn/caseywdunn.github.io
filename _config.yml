@@ -51,6 +51,51 @@ people:
       url: https://twitter.com/zapata_f
     - title: google
       url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
+      
+- name: Mark Howison
+  pic: mark
+  position: Application Scientist
+  description: As an application scientist and the interim director at Brown's <a href="http://www.ccv.brown.edu">Center for Computation and Visualization</a>, I help researchers better utilize high performance computing resources.
+  social:
+    - title: twitter
+      url: https://twitter.com/zapata_f
+    - title: google
+      url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
+      
+- name: Rebecca Helm
+  pic: rebecca
+  position: Graduate Student
+  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="http://www.rebeccarhelm.com/">site</a>, my <a href="http://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
+  social:
+    - title: twitter
+      url: https://twitter.com/RebeccaRHelm
+    - title: google
+      url: http://scholar.google.com/citations?user=NYI5GP8AAAAJ
+      
+- name: Cat Munro
+  pic: cat
+  position: Graduate Student
+  description: Origin and evolution of new levels of biological organization. Evolution and development of functional specialization in siphonophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/CatMunro_
+    - title: google
+      url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
+      
+- name: August Guang
+  pic: august
+  position: Graduate Student
+  description: Evolutionary processes. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
+  social:
+
+
+- name: Sam Church
+  pic: sam
+  position: Undergrad Student
+  description: Comparative biology and phylogenetics, as well as developmental biology. Histology and development of siphonophores. 
+  social:
+
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
