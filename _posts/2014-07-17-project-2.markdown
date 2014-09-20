@@ -7,6 +7,6 @@ img: pcfb-preview.png
 alt: image-alt
 linkout: http://practicalcomputing.org
 
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Steve Haddock and I wrote <a href="http://practicalcomputing.org">Practical Computing for Biologists</a> to help biologists learn general computing skills that are relevant to many different types of data analysis.
 
 ---

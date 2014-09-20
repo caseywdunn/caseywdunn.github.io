@@ -7,6 +7,5 @@ img: cc-preview.png
 alt: image-alt
 linkout: http://creaturecast.org
 
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: <a href="http://creaturecast.org">CreatureCast</a> is our series of cartoons about science. Most are made by students at Brown. This series is now distributed in <a href="http://www.nytimes.com/2013/09/17/science/creatures-strange-and-complex-in-colorful-detail.html">partnership</a> with the <a href="https://bitbucket.org/caseywdunn/agalma">New York Times</a>. The videos are released under a Creative Commons license, and can also be downloaded at <a href="https://vimeo.com/user1747626">vimeo</a>.
 ---

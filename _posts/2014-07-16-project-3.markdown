@@ -7,6 +7,5 @@ img: eeb-preview.png
 alt: image-alt
 linkout: http://www.brown.edu/academics/ecology-and-evolutionary-biology/
 
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: Our lab is in the <a href="http://www.brown.edu/academics/ecology-and-evolutionary-biology">Department of Ecology and Evolutionary Biology</a> at <a href="http://brown.edu">Brown University</a>.
 ---
