@@ -56,7 +56,7 @@ people:
 - name: Mark Howison
   pic: mark
   position: Application Scientist
-  description: As an application scientist and the interim director at Brown's <a href="http://www.ccv.brown.edu">Center for Computation and Visualization</a>, I help researchers better utilize high performance computing resources.
+  description: As an application scientist, I help researchers better utilize high performance computing resources.
   social:
     - title: twitter
       url: https://twitter.com/markhowison
@@ -78,7 +78,7 @@ people:
   position: Graduate Student
   description: Evolutionary processes. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
   social:
-   - tittle: bitbucket
+   - title: bitbucket
      url: https://bitbucket.org/aguang
 
 - name: Alex Damian Serrano
