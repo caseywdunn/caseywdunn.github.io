@@ -62,7 +62,7 @@ people:
       url: https://twitter.com/markhowison
     - title: google
       url: http://scholar.google.com/citations?user=30GiMJIAAAAJ
-      
+
 - name: Cat Munro
   pic: cat
   position: Graduate Student
@@ -72,11 +72,25 @@ people:
       url: https://twitter.com/CatMunro_
     - title: google
       url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
-      
+
 - name: August Guang
   pic: august
   position: Graduate Student
   description: Evolutionary processes. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
+  social:
+
+- name: Alex Damian Serrano
+  pic: alex
+  position: Graduate Student
+  description: Evolution and diversification of trophic niches and predatory strategies in siphonophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/antropoteuthis
+
+- name: Nicola Malakooti
+  pic: nikka
+  position: Undergraduate Student
+  description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
   social:
 
 - name: Rebecca Helm (alum, finished in 2015)
