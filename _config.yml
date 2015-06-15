@@ -76,7 +76,7 @@ people:
 - name: August Guang
   pic: august
   position: Graduate Student
-  description: Evolutionary processes. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
+  description: Evolutionary processes, applied math. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
   social:
    - title: bitbucket
      url: https://bitbucket.org/aguang
