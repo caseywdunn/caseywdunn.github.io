@@ -78,6 +78,8 @@ people:
   position: Graduate Student
   description: Evolutionary processes. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
   social:
+   - tittle: bitbucket
+     url: https://bitbucket.org/aguang
 
 - name: Alex Damian Serrano
   pic: alex
