@@ -85,7 +85,7 @@ people:
   description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
   social:
 
-- name: Stefan Siebert (alum, finished in 2015)
+- name: Stefan Siebert (alum, 2015)
   pic: stefan
   position: Postdoc
   description: The developmental biology and diversity of hydrozoans (Cnidaria).
@@ -95,7 +95,7 @@ people:
     - title: flickr
       url: https://www.flickr.com/photos/ssiebert/
 
-- name: Rebecca Helm (alum, finished in 2015)
+- name: Rebecca Helm (alum, 2015)
   pic: rebecca
   position: Graduate Student
   description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="http://www.rebeccarhelm.com/">site</a>, my <a href="http://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
@@ -105,7 +105,7 @@ people:
     - title: google
       url: http://scholar.google.com/citations?user=NYI5GP8AAAAJ
 
-- name: Sam Church (alum, finished in 2015)
+- name: Sam Church (alum, 2015)
   pic: sam
   position: Undergrad Student
   description: Comparative biology and phylogenetics, as well as developmental biology. Histology and development of siphonophores. 
