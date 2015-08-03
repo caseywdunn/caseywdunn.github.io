@@ -79,6 +79,12 @@ people:
     - title: twitter
       url: https://twitter.com/antropoteuthis
 
+- name: Cat Luria
+  pic: luria
+  position: Graduate Student
+  description: I exame how environmental factors, especially organic matter inputs and sea ice retreat, affect marine bacterial community structure and function in the coastal waters west of the Antarctic Peninsula.
+  social:
+
 - name: Nicola Malakooti
   pic: nikka
   position: Undergraduate Student
