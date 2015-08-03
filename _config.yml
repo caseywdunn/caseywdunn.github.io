@@ -33,16 +33,6 @@ people:
     - title: flickr
       url: https://www.flickr.com/photos/12455333@N00/
 
-- name: Stefan Siebert
-  pic: stefan
-  position: Postdoc
-  description: The developmental biology and diversity of hydrozoans (Cnidaria).
-  social:
-    - title: google
-      url: http://scholar.google.com/citations?user=G8XF6J0AAAAJ
-    - title: flickr
-      url: https://www.flickr.com/photos/ssiebert/
-
 - name: Felipe Zapata
   pic: felipe
   position: Postdoc
@@ -94,6 +84,16 @@ people:
   position: Undergraduate Student
   description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
   social:
+
+  - name: Stefan Siebert (alum, finished in 2015)
+  pic: stefan
+  position: Postdoc
+  description: The developmental biology and diversity of hydrozoans (Cnidaria).
+  social:
+    - title: google
+      url: http://scholar.google.com/citations?user=G8XF6J0AAAAJ
+    - title: flickr
+      url: https://www.flickr.com/photos/ssiebert/
 
 - name: Rebecca Helm (alum, finished in 2015)
   pic: rebecca
