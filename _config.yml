@@ -32,16 +32,8 @@ people:
       url: https://vimeo.com/user1747626
     - title: flickr
       url: https://www.flickr.com/photos/12455333@N00/
-
-- name: Felipe Zapata
-  pic: felipe
-  position: Postdoc
-  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="http://zapatalab.info/people/felipe.html">My site</a>.
-  social:
-    - title: twitter
-      url: https://twitter.com/zapata_f
-    - title: google
-      url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
+    - title: medium
+      url: https://medium.com/@caseywdunn
       
 - name: Mark Howison
   pic: mark
@@ -91,6 +83,15 @@ people:
   description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
   social:
 
+- name: Felipe Zapata (alum, 2016)
+  pic: felipe
+  position: Postdoc
+  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="http://zapatalab.info/people/felipe.html">My site</a>.
+  social:
+    - title: twitter
+      url: https://twitter.com/zapata_f
+    - title: google
+      url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
 - name: Stefan Siebert (alum, 2015)
   pic: stefan
   position: Postdoc
