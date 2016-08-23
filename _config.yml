@@ -34,6 +34,14 @@ people:
       url: https://www.flickr.com/photos/12455333@N00/
     - title: medium
       url: https://medium.com/@caseywdunn
+
+- name: Zack Lewis
+  pic: zack
+  position: Postdoc
+  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="http://www.people.fas.harvard.edu/~zrlewis/">My site</a>.
+  social:
+    - title: google
+      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
       
 - name: Mark Howison
   pic: mark
@@ -77,11 +85,7 @@ people:
     - title: twitter
       url: https://twitter.com/antropoteuthis
 
-- name: Nicola Malakooti
-  pic: nikka
-  position: Undergraduate Student
-  description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
-  social:
+
 
 - name: Felipe Zapata (alum, 2016)
   pic: felipe
@@ -118,7 +122,11 @@ people:
   description: Comparative biology and phylogenetics, as well as developmental biology. Histology and development of siphonophores. 
   social:
 
-
+- name: Nicola Malakooti (alum, 2016)
+  pic: nikka
+  position: Undergraduate Student
+  description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
+  social:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
