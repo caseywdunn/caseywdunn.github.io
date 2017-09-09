@@ -3,8 +3,8 @@ baseurl: ''
 
 # Site settings
 title: The Dunn Lab
-email: casey_dunn@brown.edu
-description: "Casey Dunn's laboratory in the Department of Ecology and Evolutionary Biology at Brown University."
+email: casey.dunn@yale.edu
+description: "Casey Dunn's laboratory in the Department of Ecology and Evolutionary Biology at Yale University."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -42,16 +42,6 @@ people:
   social:
     - title: google
       url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
-      
-- name: Mark Howison
-  pic: mark
-  position: Application Scientist
-  description: As an application scientist, I help researchers better utilize high performance computing resources.
-  social:
-    - title: twitter
-      url: https://twitter.com/markhowison
-    - title: google
-      url: http://scholar.google.com/citations?user=30GiMJIAAAAJ
 
 - name: Cat Munro
   pic: cat
@@ -71,12 +61,6 @@ people:
    - title: bitbucket
      url: https://bitbucket.org/aguang
 
-- name: Cat Luria
-  pic: luria
-  position: Graduate Student
-  description: Impacts of organic matter inputs and sea ice retreat on marine bacterial community structure in Antarctica.
-  social:
-
 - name: Alex Damian Serrano
   pic: alex
   position: Graduate Student
@@ -85,7 +69,21 @@ people:
     - title: twitter
       url: https://twitter.com/antropoteuthis
 
-
+- name: Cat Luria (alum, 2016)
+  pic: luria
+  position: Graduate Student
+  description: Impacts of organic matter inputs and sea ice retreat on marine bacterial community structure in Antarctica.
+  social:
+      
+- name: Mark Howison (alum)
+  pic: mark
+  position: Application Scientist
+  description: As an application scientist, I help researchers better utilize high performance computing resources.
+  social:
+    - title: twitter
+      url: https://twitter.com/markhowison
+    - title: google
+      url: http://scholar.google.com/citations?user=30GiMJIAAAAJ
 
 - name: Felipe Zapata (alum, 2016)
   pic: felipe
@@ -145,10 +143,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Box GW
-  - line: 80 Waterman St
-  - line: Brown University
-  - line: Providence, RI 02906
+  - line: 165 Prospect St.
+  - line: Yale University
+  - line: New Haven, CT 06511
 
 # Build settings
 markdown: kramdown
