@@ -1,11 +1,11 @@
 ---
-title: Brown EEB
+title: Yale EEB
 layout: default
 modal-id: 3
 date: 2014-07-16
 img: eeb-preview.png
 alt: image-alt
-linkout: http://www.brown.edu/academics/ecology-and-evolutionary-biology/
+linkout: http://eeb.yale.edu
 
-description: Our lab is in the <a href="http://www.brown.edu/academics/ecology-and-evolutionary-biology">Department of Ecology and Evolutionary Biology</a> at <a href="http://brown.edu">Brown University</a>.
+description: Our lab is in the <a href="http://eeb.yale.edu">Department of Ecology and Evolutionary Biology</a> at <a href="http://yale.edu">Yale University</a>.
 ---
