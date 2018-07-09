@@ -10,7 +10,7 @@ description: "Casey Dunn's laboratory in the Department of Ecology and Evolution
 color:
   link: CBA72B
   primary: fed136
-  secondary: fec503 
+  secondary: fec503
   secondary-dark: 000
 
 # Team names, titles and social links
@@ -24,7 +24,7 @@ people:
       url: https://twitter.com/caseywdunn
     - title: google
       url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ
-    - title: bitbucket 
+    - title: bitbucket
       url: https://bitbucket.org/caseywdunn
     - title: github
       url: https://github.com/caseywdunn
@@ -53,14 +53,6 @@ people:
     - title: google
       url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
-- name: August Guang
-  pic: august
-  position: Graduate Student
-  description: Evolutionary processes, applied math. Phylogenetic algorithms and the reproducibility and accuracy of their results. 
-  social:
-   - title: bitbucket
-     url: https://bitbucket.org/aguang
-
 - name: Alex Damian Serrano
   pic: alex
   position: Graduate Student
@@ -68,7 +60,24 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/antropoteuthis
-      
+
+- name: Jasmine Mah
+  pic: jas
+  position: Graduate Student
+  description: Cell type evolution, origin and evolution of complex characters, broad patterns of gene-phenotype relationships.
+  social:
+    - title: twitter
+      url: https://twitter.com/jasminelmah
+
+
+- name: August Guang (alum)
+  pic: august
+  position: Graduate Student
+  description: Evolutionary processes, applied math. Phylogenetic algorithms and the reproducibility and accuracy of their results.
+  social:
+   - title: bitbucket
+     url: https://bitbucket.org/aguang
+
 - name: Mark Howison (alum)
   pic: mark
   position: Application Scientist
@@ -117,7 +126,7 @@ people:
 - name: Sam Church (alum, 2015)
   pic: sam
   position: Undergrad Student
-  description: Comparative biology and phylogenetics, as well as developmental biology. Histology and development of siphonophores. 
+  description: Comparative biology and phylogenetics, as well as developmental biology. Histology and development of siphonophores.
   social:
 
 - name: Nicola Malakooti (alum, 2016)
@@ -132,7 +141,7 @@ social:
       url: https://twitter.com/caseywdunn
     - title: google
       url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
-    - title: bitbucket 
+    - title: bitbucket
       url: https://bitbucket.org/caseywdunn
     - title: github
       url: https://github.com/caseywdunn
