@@ -43,15 +43,13 @@ people:
     - title: google
       url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
-- name: Cat Munro
-  pic: cat
-  position: Graduate Student
-  description: Origin and evolution of new levels of biological organization. Evolution and development of functional specialization in siphonophores.
+- name: Yuanning Li
+  pic: li
+  position: Postdoc
+  description: Using HIV phylogenetics to better understand transmission networks.
   social:
-    - title: twitter
-      url: https://twitter.com/CatMunro_
     - title: google
-      url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
+      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
 - name: Alex Damian Serrano
   pic: alex
@@ -69,6 +67,21 @@ people:
     - title: twitter
       url: https://twitter.com/jasminelmah
 
+- name: Reza Bergmann
+  pic: reza
+  position: Undergraduate Student
+  description: Robotics for marine natural history observations
+  social:
+
+- name: Cat Munro (alum)
+  pic: cat
+  position: Graduate Student
+  description: Origin and evolution of new levels of biological organization. Evolution and development of functional specialization in siphonophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/CatMunro_
+    - title: google
+      url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
 - name: August Guang (alum)
   pic: august
