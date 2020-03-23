@@ -43,14 +43,6 @@ people:
     - title: google
       url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
-- name: Yuanning Li
-  pic: li
-  position: Postdoc
-  description: Using HIV phylogenetics to better understand transmission networks.
-  social:
-    - title: google
-      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
-
 - name: Alex Damian Serrano
   pic: alex
   position: Graduate Student
@@ -66,6 +58,20 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/jasminelmah
+
+- name: Lauren Mellenthin
+  pic: Lauren
+  position: Graduate Student
+  description: Evolutionary origins of mesoglea and functional morphology of siphonophore nectophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/LaurMellenthin
+
+- name: Tarek Ziad
+  pic: tarek
+  position: Undergraduate Student
+  description: Body plan development and axial patterning in Hydractinia
+  social:
 
 - name: Reza Bergmann
   pic: reza
@@ -106,6 +112,14 @@ people:
   position: Graduate Student
   description: Impacts of organic matter inputs and sea ice retreat on marine bacterial community structure in Antarctica.
   social:
+
+- name: Yuanning Li (alum, 2019)
+  pic: li
+  position: Postdoc
+  description: Using HIV phylogenetics to better understand transmission networks.
+  social:
+    - title: google
+      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
 - name: Felipe Zapata (alum, 2016)
   pic: felipe
