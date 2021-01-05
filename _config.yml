@@ -35,13 +35,11 @@ people:
     - title: medium
       url: https://medium.com/@caseywdunn
 
-- name: Zack Lewis
-  pic: zack
+- name: Natasha Picciani
+  pic: natasha
   position: Postdoc
-  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="http://lewis.science">My site</a>.
+  description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="http://natashapicciani.weebly.com">My site</a>.
   social:
-    - title: google
-      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
 - name: Alex Damian Serrano
   pic: alex
@@ -67,16 +65,16 @@ people:
     - title: twitter
       url: https://twitter.com/LaurMellenthin
 
-- name: Tarek Ziad
-  pic: tarek
-  position: Undergraduate Student
-  description: Body plan development and axial patterning in Hydractinia
-  social:
-
 - name: Reza Bergmann
   pic: reza
   position: Undergraduate Student
   description: Robotics for marine natural history observations
+  social:
+
+- name: Dennis Pilarczyk
+  pic: dennis
+  position: Lab Associate
+  description: Life, evolution, and everything
   social:
 
 - name: Cat Munro (alum)
@@ -112,6 +110,14 @@ people:
   position: Graduate Student
   description: Impacts of organic matter inputs and sea ice retreat on marine bacterial community structure in Antarctica.
   social:
+
+- name: Zack Lewis (alum, 2020)
+  pic: zack
+  position: Postdoc
+  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="http://lewis.science">My site</a>.
+  social:
+    - title: google
+      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
 
 - name: Yuanning Li (alum, 2019)
   pic: li
@@ -149,6 +155,12 @@ people:
       url: https://twitter.com/RebeccaRHelm
     - title: google
       url: http://scholar.google.com/citations?user=NYI5GP8AAAAJ
+
+- name: Tarek Ziad (alum, 2020)
+  pic: tarek
+  position: Undergraduate Student
+  description: Body plan development and axial patterning in Hydractinia
+  social:
 
 - name: Sam Church (alum, 2015)
   pic: sam
