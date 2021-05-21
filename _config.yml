@@ -133,7 +133,10 @@ people:
   description: Using HIV phylogenetics to better understand transmission networks.
   social:
     - title: google
-      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
+      url: https://scholar.google.com/citations?user=65ygCIsAAAAJ&hl=en
+    - title: twitter
+      url: https://twitter.com/YuanningLi1
+
 
 - name: Felipe Zapata (alum, 2016)
   pic: felipe
