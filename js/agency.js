@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Agnecy Bootstrap Theme (https://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * For details, see https://www.apache.org/licenses/LICENSE-2.0.
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin

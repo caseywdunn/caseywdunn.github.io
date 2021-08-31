@@ -38,7 +38,7 @@ people:
 - name: Natasha Picciani
   pic: natasha
   position: Postdoc
-  description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="http://natashapicciani.weebly.com">My site</a>.
+  description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="https://natashapicciani.weebly.com">My site</a>.
   social:
 
 - name: Alex Damian Serrano
@@ -93,7 +93,7 @@ people:
     - title: twitter
       url: https://twitter.com/CatMunro_
     - title: google
-      url: http://scholar.google.com/citations?user=2EpYRt4AAAAJ
+      url: https://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
 - name: August Guang (alum)
   pic: august
@@ -111,7 +111,7 @@ people:
     - title: twitter
       url: https://twitter.com/markhowison
     - title: google
-      url: http://scholar.google.com/citations?user=30GiMJIAAAAJ
+      url: https://scholar.google.com/citations?user=30GiMJIAAAAJ
 
 - name: Cat Luria (alum, 2016)
   pic: luria
@@ -122,10 +122,10 @@ people:
 - name: Zack Lewis (alum, 2020)
   pic: zack
   position: Postdoc
-  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="http://lewis.science">My site</a>.
+  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="https://lewis.science">My site</a>.
   social:
     - title: google
-      url: http://scholar.google.com/citations?user=uHN9MicAAAAJ
+      url: https://scholar.google.com/citations?user=uHN9MicAAAAJ
 
 - name: Yuanning Li (alum, 2019)
   pic: li
@@ -141,12 +141,12 @@ people:
 - name: Felipe Zapata (alum, 2016)
   pic: felipe
   position: Postdoc
-  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="http://zapatalab.info/people/felipe.html">My site</a>.
+  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="https://zapatalab.info/people/felipe.html">My site</a>.
   social:
     - title: twitter
       url: https://twitter.com/zapata_f
     - title: google
-      url: http://scholar.google.com/citations?user=dwQ7qIcAAAAJ
+      url: https://scholar.google.com/citations?user=dwQ7qIcAAAAJ
 
 - name: Stefan Siebert (alum, 2015)
   pic: stefan
@@ -154,19 +154,19 @@ people:
   description: The developmental biology and diversity of hydrozoans (Cnidaria).
   social:
     - title: google
-      url: http://scholar.google.com/citations?user=G8XF6J0AAAAJ
+      url: https://scholar.google.com/citations?user=G8XF6J0AAAAJ
     - title: flickr
       url: https://www.flickr.com/photos/ssiebert/
 
 - name: Rebecca Helm (alum, 2015)
   pic: rebecca
   position: Graduate Student
-  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="http://www.rebeccarhelm.com/">site</a>, my <a href="http://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
+  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="https://www.rebeccarhelm.com/">site</a>, my <a href="https://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
   social:
     - title: twitter
       url: https://twitter.com/RebeccaRHelm
     - title: google
-      url: http://scholar.google.com/citations?user=NYI5GP8AAAAJ
+      url: https://scholar.google.com/citations?user=NYI5GP8AAAAJ
 
 - name: Tarek Ziad (alum, 2020)
   pic: tarek
@@ -191,7 +191,7 @@ social:
     - title: twitter
       url: https://twitter.com/caseywdunn
     - title: google
-      url: http://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
     - title: bitbucket
       url: https://bitbucket.org/caseywdunn
     - title: github
