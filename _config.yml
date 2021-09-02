@@ -41,13 +41,13 @@ people:
   description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="https://natashapicciani.weebly.com">My site</a>.
   social:
 
-- name: Alex Damian Serrano
-  pic: alex
-  position: Graduate Student
-  description: Evolution and diversification of trophic niches and predatory strategies in siphonophores.
+- name: Sam Church
+  pic: sam
+  position: Postdoc
+  description: Evo-devo, focusing on comparative methods for high-dimensional data. Phylogenetics, bioinformatics, and data viz.
   social:
-    - title: twitter
-      url: https://twitter.com/antropoteuthis
+    - title: github
+      url: https://shchurch.github.io/
 
 - name: Jasmine Mah
   pic: jas
@@ -84,8 +84,15 @@ people:
   description: Life, evolution, and everything
   social:
 
+- name: Alex Damian Serrano (alum 2021)
+  pic: alex
+  position: Graduate Student
+  description: Evolution and diversification of trophic niches and predatory strategies in siphonophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/antropoteuthis
 
-- name: Cat Munro (alum)
+- name: Cat Munro (alum 2018)
   pic: cat
   position: Graduate Student
   description: Evolution and development of functional specialization in siphonophores.
@@ -175,7 +182,7 @@ people:
   social:
 
 - name: Sam Church (alum, 2015)
-  pic: sam
+  pic: sam_old
   position: Undergrad Student
   description: Comparative biology, phylogenetics, and developmental biology.
   social:
