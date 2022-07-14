@@ -65,23 +65,24 @@ people:
     - title: twitter
       url: https://twitter.com/LaurMellenthin
 
-- name: Reza Bergmann
-  pic: reza
-  position: Undergraduate Student
-  description: Robotics for marine natural history observations
+- name: Namrata Ahuja
+  pic: nam
+  position: Graduate Student
+  description: Evo-devo of novel structures/cells and body plan formation in siphonophores. Embryology, gene expression, morphology.
   social:
 
-- name: Kirstin Dion
-  pic: kirstin
-  position: Research Assistant
-  description: Genomes, animals, and populations
-  social:
 
 
 - name: Dennis Pilarczyk
   pic: dennis
   position: Lab Associate
   description: Life, evolution, and everything
+  social:
+
+- name: Kirstin Dion (alum 2022)
+  pic: kirstin
+  position: Research Assistant
+  description: Genomes, animals, and populations
   social:
 
 - name: Alex Damian Serrano (alum 2021)
@@ -91,6 +92,12 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/antropoteuthis
+
+- name: Reza Bergmann (alum 2021)
+  pic: reza
+  position: Undergraduate Student
+  description: Robotics for marine natural history observations
+  social:
 
 - name: Cat Munro (alum 2018)
   pic: cat
