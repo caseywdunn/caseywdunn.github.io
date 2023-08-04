@@ -20,26 +20,10 @@ people:
   position: Principal Investigator
   description: My CV is available <a href="/assets/Casey_Dunn_CV.pdf">here</a>.
   social:
-    - title: twitter
-      url: https://twitter.com/caseywdunn
     - title: google
       url: https://scholar.google.com/citations?user=mSMSMM4AAAAJ
-    - title: bitbucket
-      url: https://bitbucket.org/caseywdunn
     - title: github
       url: https://github.com/caseywdunn
-    - title: vimeo-square
-      url: https://vimeo.com/user1747626
-    - title: flickr
-      url: https://www.flickr.com/photos/12455333@N00/
-    - title: medium
-      url: https://medium.com/@caseywdunn
-
-- name: Natasha Picciani
-  pic: natasha
-  position: Postdoc
-  description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="https://natashapicciani.weebly.com">My site</a>.
-  social:
 
 - name: Sam Church
   pic: sam
@@ -71,12 +55,22 @@ people:
   description: Evo-devo of novel structures/cells and body plan formation in siphonophores. Embryology, gene expression, morphology.
   social:
 
-
+- name: Dalila Destanovic
+  pic: dalila
+  position: Graduate Student
+  description: Evolution of marine invertebrates, comparative genomics, and 3D genome organization.
+  social:
 
 - name: Dennis Pilarczyk
   pic: dennis
   position: Lab Associate
   description: Life, evolution, and everything
+  social:
+
+- name: Natasha Picciani (alum 2022)
+  pic: natasha
+  position: Postdoc
+  description: Evolution of complex traits, including vision and life stages. Phylogenetics, gene expression, morphology. <a href="https://natashapicciani.weebly.com">My site</a>.
   social:
 
 - name: Kirstin Dion (alum 2022)
