@@ -33,22 +33,6 @@ people:
     - title: github
       url: https://shchurch.github.io/
 
-- name: Jasmine Mah
-  pic: jas
-  position: Graduate Student
-  description: Cell type evolution, origin and evolution of complex characters, gene-phenotype relationships.
-  social:
-    - title: twitter
-      url: https://twitter.com/jasminelmah
-
-- name: Lauren Mellenthin
-  pic: lauren
-  position: Graduate Student
-  description: Evolutionary origins of mesoglea and functional morphology of siphonophore nectophores.
-  social:
-    - title: twitter
-      url: https://twitter.com/LaurMellenthin
-
 - name: Namrata Ahuja
   pic: nam
   position: Graduate Student
@@ -66,6 +50,22 @@ people:
   position: Lab Associate
   description: Life, evolution, and everything
   social:
+
+- name: Jasmine Mah (alum 2024)
+  pic: jas
+  position: Graduate Student
+  description: Cell type evolution, origin and evolution of complex characters, gene-phenotype relationships.
+  social:
+    - title: twitter
+      url: https://twitter.com/jasminelmah
+
+- name: Lauren Mellenthin (alum 2024)
+  pic: lauren
+  position: Graduate Student
+  description: Evolutionary origins of mesoglea and functional morphology of siphonophore nectophores.
+  social:
+    - title: twitter
+      url: https://twitter.com/LaurMellenthin
 
 - name: Natasha Picciani (alum 2022)
   pic: natasha
