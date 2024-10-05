@@ -28,7 +28,7 @@ people:
 - name: Sam Church
   pic: sam
   position: Associate Research Scientist
-  description: Evo-devo, focusing on comparative methods for high-dimensional data. Phylogenetics, bioinformatics, and data viz.
+  description: Evo-devo, phylogenetics, high-dimensional data, population genomics in the open ocean.
   social:
     - title: github
       url: https://shchurch.github.io/
@@ -36,7 +36,7 @@ people:
 - name: Namrata Ahuja
   pic: nam
   position: Graduate Student
-  description: Evo-devo of novel structures/cells and body plan formation in siphonophores. Embryology, gene expression, morphology.
+  description: Evo-devo of siphonophores. Embryology, gene expression, morphology.
   social:
 
 - name: Dalila Destanovic
