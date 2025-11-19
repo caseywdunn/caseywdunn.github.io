@@ -14,11 +14,7 @@ import re
 
 
 
-HTML_HEADER = """---
-layout: default
-title: Publications
-permalink: /publications/
----
+HTML_HEADER = """
 
 <!-- Publications Section -->
 <section id="publications" class="bg-light-gray">
