@@ -160,11 +160,12 @@ def generate_html(input_bib, output_html):
             preprint = entry.get('preprint', '')
             code = entry.get('code_repo', '')
             cover = entry.get('cover_article', '')
-            
+            isbn = entry.get('isbn', '') if entry.get('ENTRYTYPE', '') == 'book' else ''
+
             # Build citation string
             # Example: "Dunn CW (2025) Title. Journal Vol:Pages."
             citation = f"{authors} ({year}) {title}. "
-            
+
             if journal:
                 citation += f"<i>{journal}</i>"
                 if volume:
@@ -180,13 +181,20 @@ def generate_html(input_bib, output_html):
             # --- Links Section ---
             
             # DOI
+            clean_doi = ''
             if doi:
                 clean_doi = doi.replace('http://dx.doi.org/', '').replace('https://doi.org/', '')
                 out.write(f' <a href="https://doi.org/{clean_doi}">doi:{clean_doi}</a>.')
-            # URL (only if no DOI, usually)
-            elif url:
+
+            # URL, unless it just restates the DOI
+            if url and (not clean_doi or clean_doi not in url):
                 out.write(f' <a href="{url}">Link</a>.')
-            
+
+            # ISBN (books only)
+            if isbn:
+                out.write(f' ISBN: {isbn}.')
+
+
             # Preprint
             if preprint:
                 # Extract ID if it's a URL
