@@ -105,6 +105,14 @@ people:
     - title: google
       url: https://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
+- name: August Guang (alum 2017)
+  pic: august
+  position: Graduate Student
+  description: Evolutionary processes, applied math. Phylogenetic algorithms and accuracy of their results.
+  social:
+    - title: github
+      url: https://github.com/aguang
+
 - name: Cat Luria (alum 2016)
   pic: luria
   position: Graduate Student
@@ -134,14 +142,6 @@ people:
   social:
     - title: google
       url: https://scholar.google.com/citations?user=NYI5GP8AAAAJ
-
-- name: August Guang (alum)
-  pic: august
-  position: Graduate Student
-  description: Evolutionary processes, applied math. Phylogenetic algorithms and accuracy of their results.
-  social:
-    - title: github
-      url: https://github.com/aguang
 
 - name: Mark Howison (alum)
   pic: mark
