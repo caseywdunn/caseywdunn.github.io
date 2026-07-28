@@ -1,0 +1,11 @@
+---
+title: Images
+layout: default
+modal-id: 9
+date: 2026-01-03
+img: images-preview.png
+alt: Close-up photograph of the surface of a sea star
+linkout: https://www.flickr.com/photos/12455333@N00/
+
+description: We photograph the animals we work on, both in the field and in the lab. Our <a href="https://www.flickr.com/photos/12455333@N00/">photo collection</a> is on Flickr, and images are released under a Creative Commons license.
+---

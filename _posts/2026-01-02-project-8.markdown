@@ -1,0 +1,11 @@
+---
+title: sharkmer
+layout: default
+modal-id: 8
+date: 2026-01-02
+img: sharkmer-preview.png
+alt: Diagram of a seeded de Bruijn graph assembly
+linkout: https://github.com/caseywdunn/sharkmer
+
+description: <a href="https://github.com/caseywdunn/sharkmer">sharkmer</a> is a kmer counter and seeded de Bruijn graph assembler. It performs <i>in silico</i> PCR, which takes raw genome skimming reads and a pair of primer sequences and returns the amplicons that PCR would have produced, making it possible to assemble particular genes directly from whole genome shotgun data. It also supports incremental kmer counting, for assessing how estimates such as genome size respond to sequencing depth. See the <a href="https://doi.org/10.1093/bioinformatics/btag163">paper</a> in <i>Bioinformatics</i>.
+---

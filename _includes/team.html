@@ -17,6 +17,10 @@
             
             <div class="row">
                 {% for member in site.people %}
+                {% assign row_break = forloop.index0 | modulo: 3 %}
+                {% if row_break == 0 and forloop.first == false %}
+                <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+                {% endif %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">

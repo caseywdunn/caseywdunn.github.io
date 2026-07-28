@@ -56,16 +56,12 @@ people:
   position: Graduate Student
   description: Cell type evolution, origin and evolution of complex characters, gene-phenotype relationships.
   social:
-    - title: twitter
-      url: https://twitter.com/jasminelmah
 
 - name: Lauren Mellenthin (alum 2024)
   pic: lauren
   position: Graduate Student
   description: Evolutionary origins of mesoglea and functional morphology of siphonophore nectophores.
   social:
-    - title: twitter
-      url: https://twitter.com/LaurMellenthin
 
 - name: Natasha Picciani (alum 2022)
   pic: natasha
@@ -84,8 +80,6 @@ people:
   position: Graduate Student
   description: Evolution and diversification of trophic niches and predatory strategies in siphonophores.
   social:
-    - title: twitter
-      url: https://twitter.com/antropoteuthis
 
 - name: Zack Lewis (alum 2020)
   pic: zack
@@ -102,16 +96,12 @@ people:
   social:
     - title: google
       url: https://scholar.google.com/citations?user=65ygCIsAAAAJ&hl=en
-    - title: twitter
-      url: https://twitter.com/YuanningLi1
 
 - name: Cat Munro (alum 2018)
   pic: cat
   position: Graduate Student
   description: Evolution and development of functional specialization in siphonophores.
   social:
-    - title: twitter
-      url: https://twitter.com/CatMunro_
     - title: google
       url: https://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
@@ -124,10 +114,8 @@ people:
 - name: Felipe Zapata (alum 2016)
   pic: felipe
   position: Postdoc
-  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="https://zapatalab.info/people/felipe.html">My site</a>.
+  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too.
   social:
-    - title: twitter
-      url: https://twitter.com/zapata_f
     - title: google
       url: https://scholar.google.com/citations?user=dwQ7qIcAAAAJ
 
@@ -136,18 +124,14 @@ people:
   position: Postdoc
   description: The developmental biology and diversity of hydrozoans (Cnidaria).
   social:
-    - title: google
-      url: https://scholar.google.com/citations?user=G8XF6J0AAAAJ
     - title: flickr
       url: https://www.flickr.com/photos/ssiebert/
 
 - name: Rebecca Helm (alum 2015)
   pic: rebecca
   position: Graduate Student
-  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="https://www.rebeccarhelm.com/">site</a>, my <a href="https://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
+  description: Evolution of development in cnidarians, as well as their systematics and natural history.
   social:
-    - title: twitter
-      url: https://twitter.com/RebeccaRHelm
     - title: google
       url: https://scholar.google.com/citations?user=NYI5GP8AAAAJ
 
@@ -156,27 +140,19 @@ people:
   position: Graduate Student
   description: Evolutionary processes, applied math. Phylogenetic algorithms and accuracy of their results.
   social:
-    - title: bitbucket
-      url: https://bitbucket.org/aguang
+    - title: github
+      url: https://github.com/aguang
 
 - name: Mark Howison (alum)
   pic: mark
   position: Application Scientist
   description: As an application scientist, I help researchers better utilize high performance computing resources.
   social:
-    - title: twitter
-      url: https://twitter.com/markhowison
-    - title: google
-      url: https://scholar.google.com/citations?user=30GiMJIAAAAJ
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-    - title: twitter
-      url: https://twitter.com/caseywdunn
     - title: google
       url: https://scholar.google.com/citations?user=mSMSMM4AAAAJ
-    - title: bitbucket
-      url: https://bitbucket.org/caseywdunn
     - title: github
       url: https://github.com/caseywdunn
     - title: vimeo-square
