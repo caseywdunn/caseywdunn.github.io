@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+url: https://dunnlab.org
 baseurl: ''
 
 # Site settings
@@ -25,14 +25,6 @@ people:
     - title: github
       url: https://github.com/caseywdunn
 
-- name: Sam Church
-  pic: sam
-  position: Associate Research Scientist
-  description: Evo-devo, phylogenetics, high-dimensional data, population genomics in the open ocean.
-  social:
-    - title: github
-      url: https://shchurch.github.io/
-
 - name: Namrata Ahuja
   pic: nam
   position: Graduate Student
@@ -50,6 +42,14 @@ people:
   position: Lab Associate
   description: Life, evolution, and everything
   social:
+
+- name: Sam Church (alum 2026)
+  pic: sam
+  position: Associate Research Scientist
+  description: Evo-devo, phylogenetics, high-dimensional data, population genomics in the open ocean. <a href="https://shchurch.github.io/">My site</a>.
+  social:
+    - title: github
+      url: https://github.com/shchurch
 
 - name: Jasmine Mah (alum 2024)
   pic: jas
@@ -87,11 +87,23 @@ people:
     - title: twitter
       url: https://twitter.com/antropoteuthis
 
-- name: Reza Bergmann (alum 2021)
-  pic: reza
-  position: Undergraduate Student
-  description: Robotics for marine natural history observations
+- name: Zack Lewis (alum 2020)
+  pic: zack
+  position: Postdoc
+  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="https://lewis.science">My site</a>.
   social:
+    - title: google
+      url: https://scholar.google.com/citations?user=uHN9MicAAAAJ
+
+- name: Yuanning Li (alum 2019)
+  pic: li
+  position: Postdoc
+  description: Using HIV phylogenetics to better understand transmission networks.
+  social:
+    - title: google
+      url: https://scholar.google.com/citations?user=65ygCIsAAAAJ&hl=en
+    - title: twitter
+      url: https://twitter.com/YuanningLi1
 
 - name: Cat Munro (alum 2018)
   pic: cat
@@ -103,13 +115,49 @@ people:
     - title: google
       url: https://scholar.google.com/citations?user=2EpYRt4AAAAJ
 
+- name: Cat Luria (alum 2016)
+  pic: luria
+  position: Graduate Student
+  description: Bacterial community structure in Antarctica.
+  social:
+
+- name: Felipe Zapata (alum 2016)
+  pic: felipe
+  position: Postdoc
+  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="https://zapatalab.info/people/felipe.html">My site</a>.
+  social:
+    - title: twitter
+      url: https://twitter.com/zapata_f
+    - title: google
+      url: https://scholar.google.com/citations?user=dwQ7qIcAAAAJ
+
+- name: Stefan Siebert (alum 2015)
+  pic: stefan
+  position: Postdoc
+  description: The developmental biology and diversity of hydrozoans (Cnidaria).
+  social:
+    - title: google
+      url: https://scholar.google.com/citations?user=G8XF6J0AAAAJ
+    - title: flickr
+      url: https://www.flickr.com/photos/ssiebert/
+
+- name: Rebecca Helm (alum 2015)
+  pic: rebecca
+  position: Graduate Student
+  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="https://www.rebeccarhelm.com/">site</a>, my <a href="https://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
+  social:
+    - title: twitter
+      url: https://twitter.com/RebeccaRHelm
+    - title: google
+      url: https://scholar.google.com/citations?user=NYI5GP8AAAAJ
+
 - name: August Guang (alum)
   pic: august
   position: Graduate Student
-  description: Evolutionary processes, applied math. Phylogenetic algorithms and ßaccuracy of their results.
+  description: Evolutionary processes, applied math. Phylogenetic algorithms and accuracy of their results.
   social:
-   - title: bitbucket
-     url: https://bitbucket.org/aguang
+    - title: bitbucket
+      url: https://bitbucket.org/aguang
 
 - name: Mark Howison (alum)
   pic: mark
@@ -121,85 +169,12 @@ people:
     - title: google
       url: https://scholar.google.com/citations?user=30GiMJIAAAAJ
 
-- name: Cat Luria (alum, 2016)
-  pic: luria
-  position: Graduate Student
-  description: Bacterial community structure in Antarctica.
-  social:
-
-- name: Zack Lewis (alum, 2020)
-  pic: zack
-  position: Postdoc
-  description: The evolution of development, organogenesis, and gene-phenotype relationships. <a href="https://lewis.science">My site</a>.
-  social:
-    - title: google
-      url: https://scholar.google.com/citations?user=uHN9MicAAAAJ
-
-- name: Yuanning Li (alum, 2019)
-  pic: li
-  position: Postdoc
-  description: Using HIV phylogenetics to better understand transmission networks.
-  social:
-    - title: google
-      url: https://scholar.google.com/citations?user=65ygCIsAAAAJ&hl=en
-    - title: twitter
-      url: https://twitter.com/YuanningLi1
-
-
-- name: Felipe Zapata (alum, 2016)
-  pic: felipe
-  position: Postdoc
-  description: Phylogenetics, diversity, and computational biology. I am a botanist, but enjoy animals too. <a href="https://zapatalab.info/people/felipe.html">My site</a>.
-  social:
-    - title: twitter
-      url: https://twitter.com/zapata_f
-    - title: google
-      url: https://scholar.google.com/citations?user=dwQ7qIcAAAAJ
-
-- name: Stefan Siebert (alum, 2015)
-  pic: stefan
-  position: Postdoc
-  description: The developmental biology and diversity of hydrozoans (Cnidaria).
-  social:
-    - title: google
-      url: https://scholar.google.com/citations?user=G8XF6J0AAAAJ
-    - title: flickr
-      url: https://www.flickr.com/photos/ssiebert/
-
-- name: Rebecca Helm (alum, 2015)
-  pic: rebecca
-  position: Graduate Student
-  description: Evolution of development in cnidarians, as well as their systematics and natural history. My <a href="https://www.rebeccarhelm.com/">site</a>, my <a href="https://deepseanews.com/about/rr-helm/">contributions to Deep Sea News</a>.
-  social:
-    - title: twitter
-      url: https://twitter.com/RebeccaRHelm
-    - title: google
-      url: https://scholar.google.com/citations?user=NYI5GP8AAAAJ
-
-- name: Tarek Ziad (alum, 2020)
-  pic: tarek
-  position: Undergraduate Student
-  description: Body plan development and axial patterning in Hydractinia
-  social:
-
-- name: Sam Church (alum, 2015)
-  pic: sam_old
-  position: Undergrad Student
-  description: Comparative biology, phylogenetics, and developmental biology.
-  social:
-
-- name: Nicola Malakooti (alum, 2016)
-  pic: nikka
-  position: Undergraduate Student
-  description: Comparative biology with additional interests in conservation. Inspired by the diversity of life.
-  social:
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
     - title: twitter
       url: https://twitter.com/caseywdunn
     - title: google
-      url: https://scholar.google.com/citations?user=k2n_5QoAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=mSMSMM4AAAAJ
     - title: bitbucket
       url: https://bitbucket.org/caseywdunn
     - title: github

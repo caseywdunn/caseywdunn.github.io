@@ -1,0 +1,11 @@
+---
+title: Phylogenetic Biology
+layout: default
+modal-id: 7
+date: 2026-01-01
+img: phylobio-preview.png
+alt: Cover of the book Phylogenetic Biology
+linkout: https://dunnlab.org/phylogenetic_biology/
+
+description: <a href="https://dunnlab.org/phylogenetic_biology/">Phylogenetic Biology</a> is an open textbook that introduces phylogenetic methods through models, simulation, and inference. It is free to read online, and the cover art is <i>Moth Cluster IV</i> (2016) by <a href="https://www.jamesprosek.com">James Prosek</a>, used with the artist's permission.
+---
