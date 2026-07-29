@@ -8,7 +8,7 @@ description: "Casey Dunn's laboratory in the Department of Ecology and Evolution
 
 # GoatCounter site code, ie the subdomain of <code>.goatcounter.com.
 # Leave blank to disable analytics entirely.
-goatcounter: ''
+goatcounter: 'caseywdunn'
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
