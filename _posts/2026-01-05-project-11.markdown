@@ -1,0 +1,11 @@
+---
+title: Other Yale Affiliations
+layout: default
+modal-id: 11
+date: 2026-01-05
+img: affiliations-preview.jpg
+alt: Old Campus at Yale in the fall
+linkout: https://medicine.yale.edu/genetics/
+
+description: Beyond my primary appointment in Ecology and Evolutionary Biology, I hold a secondary appointment in the <a href="https://medicine.yale.edu/genetics/">Department of Genetics</a> at the Yale School of Medicine. I am also a faculty member of the <a href="https://qbio.yale.edu/">Quantitative Biology Institute</a>, Yale's hub for research at the intersection of biology, physics, mathematics, engineering, and computer science, and of the <a href="https://wti.yale.edu/">Wu Tsai Institute</a>, which brings together researchers studying cognition from neurobiology through computational models of the mind.
+---

@@ -1,0 +1,11 @@
+---
+title: Peabody Museum
+layout: default
+modal-id: 10
+date: 2026-01-04
+img: peabody-preview.png
+alt: An invertebrate specimen from the Yale Peabody Museum collection
+linkout: https://peabody.yale.edu/explore/collections/invertebrate-zoology
+
+description: I am Curator of <a href="https://peabody.yale.edu/explore/collections/invertebrate-zoology">Invertebrate Zoology</a> at the Yale Peabody Museum. The collection approaches 300,000 specimen lots, representing about 3 million individuals, thousands of which are the type specimens of species new to science. Its strengths include western Atlantic invertebrates, tropical reef animals, and a worldwide sponge collection, with material dating back to the late 1800s.
+---
