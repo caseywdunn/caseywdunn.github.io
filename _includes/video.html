@@ -1,0 +1,34 @@
+<!-- Video Section -->
+    <section id="video" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Video</h2>
+                    <h3 class="section-subheading text-muted">Animations, conversations, and field work</h3>
+                </div>
+            </div>
+            <div class="row video-row">
+                {% for video in site.videos %}
+                <div class="col-md-4 col-sm-6 video-item">
+                    <a href="{{ video.url }}" class="video-link" target="_blank" rel="noopener">
+                        <div class="video-thumb">
+                            <img src="{{ "/img/video/" | append: video.img | prepend: site.baseurl }}" alt="{{ video.alt }}">
+                            <div class="video-hover">
+                                <div class="video-hover-content">
+                                    <i class="fa fa-play fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video-caption">
+                        <h4>{{ video.title }}</h4>
+                        <p class="text-muted">{{ video.credit }}</p>
+                        {% if video.extra_url %}
+                        <p class="video-extra"><a href="{{ video.extra_url }}" target="_blank" rel="noopener">{{ video.extra_text }}</a></p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

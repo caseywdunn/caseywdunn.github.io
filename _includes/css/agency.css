@@ -427,6 +427,131 @@ section h3.section-subheading {
     }
 }
 
+/* Flex the row so cards in a row share a height. Without this the floated
+   Bootstrap columns snag on taller neighbours and the grid goes ragged. */
+#video .video-row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* Flex items ignore the floats Bootstrap sizes columns with, so restate the
+   col-sm-6 / col-md-4 widths as flex bases at the same breakpoints. */
+#video .video-item {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0 0 15px;
+    float: none;
+}
+
+@media(min-width:768px) {
+    #video .video-item {
+        -webkit-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(min-width:992px) {
+    #video .video-item {
+        -webkit-flex: 0 0 33.33333333%;
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+
+#video .video-link {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Fixed 16:9 box so cards line up no matter what the source aspect ratio is. */
+#video .video-thumb {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    background-color: #222;
+}
+
+#video .video-thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#video .video-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#video .video-link:hover .video-hover,
+#video .video-link:focus .video-hover {
+    opacity: 1;
+}
+
+#video .video-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -24px;
+    text-align: center;
+    color: #fff;
+}
+
+#video .video-caption {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0 auto;
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#video .video-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#video .video-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#video .video-caption p.video-extra {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@media(min-width:767px) {
+    #video .video-item {
+        margin: 0 0 30px;
+    }
+}
+
 .timeline {
     position: relative;
     padding: 0;

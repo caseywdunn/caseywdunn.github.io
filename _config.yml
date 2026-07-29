@@ -17,12 +17,62 @@ color:
   secondary: fec503
   secondary-dark: 000
 
+# Videos. Each is a static card that links out to the video. img is a file in
+# img/video/, ideally 16:9 and about 800px wide. extra_url/extra_text add an
+# optional second link below the caption.
+videos:
+- title: Siphonophores
+  credit: CreatureCast
+  img: siphonophores.jpg
+  alt: Still from an animation about how siphonophores grow
+  url: https://www.youtube.com/watch?v=8Pho_sgMpCA
+
+- title: Bunnies, Dragons and the 'Normal' World
+  credit: The New York Times
+  img: central-limit-theorem.jpg
+  alt: Animated bunnies and dragons illustrating the central limit theorem
+  url: https://www.youtube.com/watch?v=jvoxEYmQHNM
+  extra_url: https://www.nytimes.com/2013/09/24/science/as-normal-as-rabbits-weights-and-dragons-wings.html
+  extra_text: Read the article
+
+- title: The Beauty of Cilia
+  credit: The New York Times
+  img: cilia.jpg
+  alt: Two ctenophores with rows of cilia refracting rainbow colors
+  url: https://www.youtube.com/watch?v=Id1Mqh1Pfws
+  extra_url: https://www.nytimes.com/2014/01/23/science/earth/moving-without-feet-to-do-so.html
+  extra_text: Read the article
+
+- title: Hunting With Tentilla
+  credit: CreatureCast
+  img: hunting-tentilla.jpg
+  alt: Still from an animation about siphonophore tentilla capturing prey
+  url: https://www.youtube.com/watch?v=wv_RL8acLWA
+
+- title: Building Tentilla
+  credit: CreatureCast
+  img: building-tentilla.jpg
+  alt: Still from an animation about how siphonophore tentilla are built
+  url: https://www.youtube.com/watch?v=6eYTQGSe_HA
+
+- title: Teaching in the Field
+  credit: Our Horse Island course, filmed by Yale
+  img: teaching-field.jpg
+  alt: Students working along the shoreline of Horse Island
+  url: https://www.youtube.com/watch?v=cPqdVsxsnSs
+
+- title: Conversation with Joe Felsenstein
+  credit: Phylogenetic Biology
+  img: felsenstein.jpg
+  alt: Joe Felsenstein in conversation
+  url: https://www.youtube.com/watch?v=oaCinQIy8MI
+
 # Team names, titles and social links
 people:
 - name: Casey Dunn
   pic: casey
   position: Principal Investigator
-  description: My CV is available <a href="/assets/Casey_Dunn_CV.pdf">here</a>.
+  description: My CV is available <a href="https://github.com/caseywdunn/casey_dunn_cv/blob/main/Casey_Dunn_CV_short.pdf">here</a>.
   social:
     - title: google
       url: https://scholar.google.com/citations?user=mSMSMM4AAAAJ
