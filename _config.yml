@@ -72,7 +72,7 @@ people:
 - name: Casey Dunn
   pic: casey
   position: Principal Investigator
-  description: My CV is available <a href="https://github.com/caseywdunn/casey_dunn_cv/blob/main/Casey_Dunn_CV_short.pdf">here</a>.
+  description: My CV is available <a href="https://raw.githubusercontent.com/caseywdunn/casey_dunn_cv/main/Casey_Dunn_CV_short.pdf">here</a> (PDF).
   social:
     - title: google
       url: https://scholar.google.com/citations?user=mSMSMM4AAAAJ
