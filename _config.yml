@@ -91,6 +91,12 @@ people:
   description: Evolution of marine invertebrates, comparative genomics, and 3D genome organization.
   social:
 
+- name: Ethan Kahn
+  pic: ethan
+  position: Graduate Student
+  description: Phylogenetics, marine invertebrate diversity, evolutionary drivers and patterns.
+  social:
+
 - name: Dennis Pilarczyk
   pic: dennis
   position: Lab Associate
