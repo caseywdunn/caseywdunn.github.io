@@ -1,0 +1,11 @@
+---
+title: corpus
+layout: default
+modal-id: 12
+date: 2026-01-06
+img: corpus-preview.png
+alt: Diagram of the first steps of the corpus pipeline, starting from a library of PDFs
+linkout: https://github.com/caseywdunn/corpus
+
+description: <a href="https://github.com/caseywdunn/corpus">corpus</a> turns a folder of scientific PDFs, from born-digital articles to centuries-old scans in multiple languages, into a knowledge base that AI agents such as Claude can query over the Model Context Protocol (MCP). It performs OCR on historical typefaces, extracts figures and their legends, reconciles bibliographies across papers, and links species and anatomical terms to taxonomies with full synonymy. It was built for taxonomic literature but is not tied to any particular group of organisms. See the <a href="https://doi.org/10.1016/j.cub.2026.08.019">paper</a> in <i>Current Biology</i>.
+---
