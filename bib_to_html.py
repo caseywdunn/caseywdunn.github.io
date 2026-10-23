@@ -158,7 +158,8 @@ def generate_html(input_bib, output_html):
             doi = entry.get('doi', '')
             url = entry.get('url', '')
             preprint = entry.get('preprint', '')
-            code = entry.get('code_repo', '')
+            code = [u.strip() for u in entry.get('code_repo', '').split(',') if u.strip()]
+            data = [u.strip() for u in entry.get('data_repo', '').split(',') if u.strip()]
             cover = entry.get('cover_article', '')
             isbn = entry.get('isbn', '') if entry.get('ENTRYTYPE', '') == 'book' else ''
 
@@ -202,7 +203,13 @@ def generate_html(input_bib, output_html):
             
             # Code
             if code:
-                out.write(f' Git code repository: <a href="{code}">{code}</a>.')
+                label = 'Git code repository' if len(code) == 1 else 'Git code repositories'
+                links = ', '.join(f'<a href="{u}">{u}</a>' for u in code)
+                out.write(f' {label}: {links}.')
+            if data:
+                label = 'Data repository' if len(data) == 1 else 'Data repositories'
+                links = ', '.join(f'<a href="{u}">{u}</a>' for u in data)
+                out.write(f' {label}: {links}.')
             
             # Cover Article
             if cover and cover.lower() == 'true':
