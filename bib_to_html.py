@@ -14,6 +14,32 @@ import re
 
 
 
+# Keywords that get a filter button above the publication list, in display order.
+# Entries are filtered by the union of selected keywords; with none selected all are shown.
+FILTER_KEYWORDS = [
+    'sequence-analysis',
+    'cnidaria',
+    'molecular-phylogenetics',
+    'siphonophora',
+    'new-sequence-data',
+    'transcriptomics',
+    'phylogenomics',
+    'phylogenetic-comparative-methods',
+    'morphology',
+    'taxonomy',
+    'animal-phylogeny',
+    'metazoa',
+    'genomics',
+    'review',
+    'deep-sea',
+    'software',
+    'development',
+    'coloniality',
+    'microscopy',
+    'commentary',
+    'popular',
+]
+
 HTML_HEADER = """
 
 <!-- Publications Section -->
@@ -24,6 +50,50 @@ HTML_HEADER = """
                 <h2 class="section-heading">Publications</h2>
             </div>
         </div>
+"""
+
+FILTER_SCRIPT = """
+<script>
+(function () {
+    var buttons = document.querySelectorAll('#pub-filters .pub-filter');
+    var clear = document.getElementById('pub-clear');
+    var boxes = document.querySelectorAll('#pub-list .box');
+    var count = document.getElementById('pub-count');
+
+    function update() {
+        var selected = [];
+        buttons.forEach(function (b) {
+            if (b.getAttribute('aria-pressed') === 'true') selected.push(b.dataset.keyword);
+        });
+        var shown = 0;
+        boxes.forEach(function (box) {
+            var kws = (box.dataset.keywords || '').split(' ');
+            var match = selected.length === 0 || selected.some(function (k) { return kws.indexOf(k) !== -1; });
+            box.hidden = !match;
+            if (match) shown++;
+        });
+        clear.hidden = selected.length === 0;
+        count.textContent = selected.length === 0 ? '' : 'Showing ' + shown + ' of ' + boxes.length + ' publications';
+    }
+
+    buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+            var on = b.getAttribute('aria-pressed') !== 'true';
+            b.setAttribute('aria-pressed', on ? 'true' : 'false');
+            b.classList.toggle('active', on);
+            update();
+        });
+    });
+    clear.addEventListener('click', function () {
+        buttons.forEach(function (b) {
+            b.setAttribute('aria-pressed', 'false');
+            b.classList.remove('active');
+        });
+        update();
+    });
+    update();
+})();
+</script>
 """
 
 HTML_FOOTER = """
@@ -143,10 +213,31 @@ def generate_html(input_bib, output_html):
     # Note: bibtexparser returns strings, so we sort safely
     entries.sort(key=lambda x: x.get('year', '0000'), reverse=True)
 
+    def entry_keywords(entry):
+        return [k.strip() for k in entry.get('keywords', '').split(',') if k.strip()]
+
+    counts = {}
+    for entry in entries:
+        for k in entry_keywords(entry):
+            counts[k] = counts.get(k, 0) + 1
+
     # 3. Generate HTML
     with open(output_html, 'w', encoding='utf-8') as out:
         out.write(HTML_HEADER)
-        
+
+        # Keyword filter bar
+        out.write('<div id="pub-filters" class="text-center" role="group" aria-label="Filter publications by keyword">\n')
+        for k in FILTER_KEYWORDS:
+            if k not in counts:
+                print(f"Warning: filter keyword '{k}' is not used by any entry", file=sys.stderr)
+                continue
+            label = k.replace('-', ' ')
+            out.write(f'<button type="button" class="btn btn-default btn-sm pub-filter" data-keyword="{k}" aria-pressed="false">{label} <span class="badge">{counts[k]}</span></button>\n')
+        out.write('<button type="button" id="pub-clear" class="btn btn-link btn-sm" hidden>Show all</button>\n')
+        out.write('</div>\n')
+        out.write('<p id="pub-count" class="text-center text-muted" aria-live="polite"></p>\n')
+        out.write('<div id="pub-list">\n')
+
         for entry in entries:
             # Extract fields
             authors = format_authors(entry.get('author', ''))
@@ -176,7 +267,8 @@ def generate_html(input_bib, output_html):
                 citation += "."
             
             # Start HTML Box
-            out.write('<div class="box"><div class="box-title"></div><div class="box-body">\n')
+            keywords = ' '.join(entry_keywords(entry))
+            out.write(f'<div class="box" data-keywords="{keywords}"><div class="box-title"></div><div class="box-body">\n')
             out.write(f'<p class="text-muted">{citation}')
 
             # --- Links Section ---
@@ -219,6 +311,8 @@ def generate_html(input_bib, output_html):
             out.write('</p>\n')
             out.write('</div><div class="box-footer"> </div></div>\n\n')
 
+        out.write('</div>\n')
+        out.write(FILTER_SCRIPT)
         out.write(HTML_FOOTER)
 
     print(f"Successfully generated {output_html} from {input_bib}")

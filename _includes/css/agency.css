@@ -985,3 +985,41 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+/* Publication keyword filters */
+#pub-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+#pub-filters .pub-filter {
+    border-radius: 16px;
+}
+
+#pub-filters .pub-filter.active,
+#pub-filters .pub-filter[aria-pressed="true"] {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+    color: #222;
+    box-shadow: none;
+}
+
+#pub-filters .pub-filter .badge {
+    background-color: #999;
+}
+
+#pub-filters .pub-filter.active .badge {
+    background-color: #fff;
+    color: #222;
+}
+
+#pub-filters [hidden],
+#pub-list .box[hidden] {
+    display: none;
+}
+
+#pub-count {
+    min-height: 1.5em;
+}
