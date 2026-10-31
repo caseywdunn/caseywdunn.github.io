@@ -226,6 +226,7 @@ def generate_html(input_bib, output_html):
         out.write(HTML_HEADER)
 
         # Keyword filter bar
+        out.write('<p id="pub-filter-hint" class="text-center text-muted">Select keywords below to filter publications.</p>\n')
         out.write('<div id="pub-filters" class="text-center" role="group" aria-label="Filter publications by keyword">\n')
         for k in FILTER_KEYWORDS:
             if k not in counts:

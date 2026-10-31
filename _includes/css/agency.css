@@ -996,6 +996,20 @@ body {
 
 #pub-filters .pub-filter {
     border-radius: 16px;
+    border-color: #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+#pub-filters .pub-filter:hover,
+#pub-filters .pub-filter:focus {
+    border-color: #{{ site.color.primary }};
+    background-color: #fdf6d8;
+    color: #222;
+}
+
+#pub-filter-hint {
+    margin-bottom: 10px;
 }
 
 #pub-filters .pub-filter.active,
@@ -1007,7 +1021,8 @@ body {
 }
 
 #pub-filters .pub-filter .badge {
-    background-color: #999;
+    background-color: #e6e6e6;
+    color: #333;
 }
 
 #pub-filters .pub-filter.active .badge {
@@ -1022,4 +1037,38 @@ body {
 
 #pub-count {
     min-height: 1.5em;
+}
+
+/* Section heading permalinks */
+section[id] .section-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.section-anchor {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px;
+    color: #999;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.section-heading:hover .section-anchor,
+.section-anchor:focus {
+    opacity: 1;
+}
+
+.section-anchor:hover,
+.section-anchor:focus {
+    color: #{{ site.color.primary }};
+}
+
+/* No hover on touch screens: keep the link faintly visible */
+@media (hover: none) {
+    .section-anchor {
+        opacity: 0.5;
+    }
 }
