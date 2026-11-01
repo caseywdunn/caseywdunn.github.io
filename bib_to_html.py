@@ -204,7 +204,7 @@ def format_authors(author_str):
 def generate_html(input_bib, output_html):
     # 1. Parse BibTeX
     with open(input_bib, 'r', encoding='utf-8') as bib_file:
-        parser = BibTexParser(common_strings=True)
+        parser = BibTexParser(common_strings=True, ignore_nonstandard_types=False)
         bib_database = bibtexparser.load(bib_file, parser=parser)
 
     entries = bib_database.entries
@@ -244,7 +244,9 @@ def generate_html(input_bib, output_html):
             authors = format_authors(entry.get('author', ''))
             year = entry.get('year', '')
             title = clean_tex(entry.get('title', ''))
-            journal = clean_tex(entry.get('journal', entry.get('booktitle', '')))
+            # @online entries are preprints not yet published; organization is the server (e.g. bioRxiv)
+            is_preprint = entry.get('ENTRYTYPE', '') == 'online'
+            journal = clean_tex(entry.get('journal', entry.get('booktitle', entry.get('organization', ''))))
             volume = entry.get('volume', '')
             pages = entry.get('pages', '')
             doi = entry.get('doi', '')
@@ -266,6 +268,8 @@ def generate_html(input_bib, output_html):
                     if pages:
                         citation += f":{pages}"
                 citation += "."
+            if is_preprint:
+                citation += " Preprint, not yet peer reviewed."
             
             # Start HTML Box
             keywords = ' '.join(entry_keywords(entry))
