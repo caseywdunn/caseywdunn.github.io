@@ -8,10 +8,29 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+        var hash = $anchor.attr('href');
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $(hash).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+        // Record the section in the URL (e.g. #publications) so it can be shared and
+        // revisited; the top of the page gets a clean URL rather than #page-top.
+        if (window.history && history.pushState) {
+            var url = hash === '#page-top' ? location.pathname + location.search : hash;
+            if (url !== location.pathname + location.search + location.hash && url !== location.hash) {
+                history.pushState(null, '', url);
+            }
+        }
+    });
+
+    // Back/forward between section URLs scrolls to that section
+    $(window).on('popstate', function() {
+        var $target = $(location.hash || '#page-top');
+        if ($target.length) {
+            $('html, body').stop().animate({
+                scrollTop: $target.offset().top
+            }, 1500, 'easeInOutExpo');
+        }
     });
 });
 
