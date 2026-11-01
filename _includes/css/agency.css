@@ -1001,11 +1001,29 @@ body {
     color: #333;
 }
 
-#pub-filters .pub-filter:hover,
-#pub-filters .pub-filter:focus {
-    border-color: #{{ site.color.primary }};
-    background-color: #fdf6d8;
-    color: #222;
+/* A button keeps focus after a click, so focus alone must not look selected
+   (deselecting would otherwise leave it tinted); keyboard focus gets an outline. */
+#pub-filters .pub-filter:focus,
+#pub-filters .pub-filter:active {
+    border-color: #ccc;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+}
+
+#pub-filters .pub-filter:focus-visible {
+    outline: 2px solid #{{ site.color.primary }};
+    outline-offset: 2px;
+}
+
+/* Hover tint only where hovering exists; on touch screens it would stick after a tap */
+@media (hover: hover) {
+    #pub-filters .pub-filter:hover {
+        border-color: #{{ site.color.primary }};
+        background-color: #fdf6d8;
+        color: #222;
+    }
 }
 
 #pub-filter-hint {
