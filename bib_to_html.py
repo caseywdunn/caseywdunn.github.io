@@ -29,6 +29,7 @@ FILTER_KEYWORDS = [
     'taxonomy',
     'animal-phylogeny',
     'metazoa',
+    'hiv',
     'genomics',
     'review',
     'deep-sea',
