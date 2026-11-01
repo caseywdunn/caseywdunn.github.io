@@ -34,10 +34,12 @@ FILTER_KEYWORDS = [
     'deep-sea',
     'software',
     'development',
+    'evo-devo',
     'coloniality',
     'microscopy',
     'commentary',
-    'popular',
+    'general-audience',
+    'preprint',
 ]
 
 HTML_HEADER = """
