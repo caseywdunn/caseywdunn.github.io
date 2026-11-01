@@ -76,7 +76,7 @@ FILTER_SCRIPT = """
             if (match) shown++;
         });
         clear.hidden = selected.length === 0;
-        count.textContent = selected.length === 0 ? '' : 'Showing ' + shown + ' of ' + boxes.length + ' publications';
+        count.textContent = 'Showing ' + shown + ' of ' + boxes.length + ' publications';
     }
 
     buttons.forEach(function (b) {
